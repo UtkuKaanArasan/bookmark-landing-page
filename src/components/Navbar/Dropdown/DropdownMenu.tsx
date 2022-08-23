@@ -15,7 +15,7 @@ interface DropdownMenuProps {
 const DropdownMenu: FC<DropdownMenuProps> = ({ setIsOpen }) => {
     return (
         <div
-            className="bg-Very-dark-blue/75 p-10 h-full w-full absolute left-0 top-0">
+            className="bg-Very-dark-blue/95 p-10 h-full w-full absolute left-0 top-0 z-50">
             <div className="flex justify-between items-center mt-3 mb-9">
                 <div>
                     <img src={logo} alt="logo" />

@@ -9,7 +9,8 @@ module.exports = {
         'Soft-blue':'#5368df',
         'Soft-red':'#fa5757',
         'Grayish-blue':'#9194a1',
-        'Very-dark-blue':'#252b46',
+        'Very-dark-blue': '#252b46',
+        'Soft-white':'#FAFAFA'
       },
       fontFamily: {
         'Rubik': "'Rubik', sans- serif;"

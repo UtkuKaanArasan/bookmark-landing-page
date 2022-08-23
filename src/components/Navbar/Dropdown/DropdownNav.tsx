@@ -1,16 +1,16 @@
 // Type checking and hooks
-import { FC, SetStateAction, useState } from "react";
+import { FC, SetStateAction } from "react";
 // Logo
 import hamburger from "../../../images/icon-hamburger.svg";
 // Component
 import DropdownMenu from "./DropdownMenu";
 
-interface DropdownNavProps{
+interface DropdownNavProps {
     isOpen: boolean,
     setIsOpen: React.Dispatch<SetStateAction<boolean>>
 }
 
-const DropdownNav: FC<DropdownNavProps> = ({isOpen, setIsOpen}) => {
+const DropdownNav: FC<DropdownNavProps> = ({ isOpen, setIsOpen }) => {
 
     return (
         <div>
