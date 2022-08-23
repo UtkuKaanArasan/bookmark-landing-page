@@ -27,3 +27,5 @@ yarn-error.log*
 *.xd
 *.fig
 .DS_Store
+
+.vscode

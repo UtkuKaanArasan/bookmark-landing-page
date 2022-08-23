@@ -1,17 +1,21 @@
 // Type checking and hooks
-import { FC, useState } from "react";
+import { FC, SetStateAction, useState } from "react";
 // Logo
 import hamburger from "../../../images/icon-hamburger.svg";
 // Component
 import DropdownMenu from "./DropdownMenu";
 
-const DropdownNav: FC = () => {
+interface DropdownNavProps{
+    isOpen: boolean,
+    setIsOpen: React.Dispatch<SetStateAction<boolean>>
+}
 
-    const [isOpen, setIsOpen] = useState<boolean>(false);
+const DropdownNav: FC<DropdownNavProps> = ({isOpen, setIsOpen}) => {
 
     return (
         <div>
             {isOpen === true ?
+                // For close button to function i passed the setState with props
                 <DropdownMenu setIsOpen={setIsOpen} />
                 :
                 <img
