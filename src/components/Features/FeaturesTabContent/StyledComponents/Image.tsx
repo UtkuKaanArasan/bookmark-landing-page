@@ -7,7 +7,7 @@ interface ImageProps{
 
 const Image: FC<ImageProps> = ({children}) => {
     return (
-        <div className="pt-10 mt-10 pb-5 mb-5">{children}</div>
+        <div className="mx-5 my-10 md:w-1/2 md:justify-center">{children}</div>
     )
 }
 
