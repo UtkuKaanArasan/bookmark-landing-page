@@ -7,6 +7,7 @@ import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import Features from './components/Features/Features';
 import Downloads from './components/Downloads/Downloads';
+import Faq from './components/Faq/Faq';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Hero />
       <Features />
       <Downloads />
+      <Faq />
     </div>
   );
 }
