@@ -14,7 +14,12 @@ module.exports = {
       },
       fontFamily: {
         'Rubik': "'Rubik', sans- serif;"
-      }
+      },
+      // to fix the hover stuck on mobile devices
+      screens: {
+        'hover-hover': { 'raw': '(hover: hover)' },
+        'hover-none': {'raw': '(hover: none)'}
+      },
     },
   },
   plugins: [],

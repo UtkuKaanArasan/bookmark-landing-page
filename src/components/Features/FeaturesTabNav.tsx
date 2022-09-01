@@ -16,19 +16,19 @@ const FeaturesTabNav: FC<FeaturesTabNavProps> = ({ setSelected }) => {
         divide-y-2 border-t-2 border-b-2
         md:flex md:divide-y-0 md:border-t-0 md:w-4/5 md:justify-around md:mx-auto">
             <div
-                className="p-4 hover:text-Soft-red cursor-pointer"
+                className="p-4 hover-hover:hover:text-Soft-red cursor-pointer"
                 onClick={onClickHandler}
             >
                 Simple Bookmarking
             </div>
             <div
-                className="p-4 hover:text-Soft-red cursor-pointer"
+                className="p-4 hover-hover:hover:text-Soft-red cursor-pointer"
                 onClick={onClickHandler}
             >
                 Speedy Searching
             </div>
             <div
-                className="p-4 hover:text-Soft-red cursor-pointer"
+                className="p-4 hover-hover:hover:text-Soft-red cursor-pointer"
                 onClick={onClickHandler}
             >
                 Easy Sharing

@@ -1,5 +1,8 @@
+// Type checking
 import { FC, SetStateAction } from "react";
-import icon from "../../../images/icon-arrow.svg"
+// Icons
+import icon from "../../../images/icon-arrow.svg";
+import closeIcon from "../../../images/icon-arrow-close.svg";
 
 interface AccordionCardProps {
     title: string,
@@ -23,14 +26,18 @@ const AccordionCard: FC<AccordionCardProps> = ({ title, answer, id, index, setIn
     }
 
     return (
-        <div className="border-b-2">
+        <div className="border-b-2 cursor-pointer lg:w-2/3">
             <div
                 onClick={() => handleIndex(id)}
-                className="flex justify-between items-center my-1 py-4"
+                className="flex justify-between items-center my-1 py-4 hover-hover:hover:text-Soft-red"
             >
                 <div>{title}</div>
                 <div>
-                    <img src={icon} alt="icon" />
+                    {index === id ?
+                        <img className="rotate-180" src={closeIcon} alt="icon" />
+                        :
+                        <img src={icon} alt="icon" />
+                    }
                 </div>
             </div>
             {

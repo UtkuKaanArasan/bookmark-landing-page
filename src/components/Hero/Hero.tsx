@@ -18,10 +18,10 @@ const Hero: FC = () => {
                     A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.
                 </p>
                 <div className="flex justify-center md:justify-start">
-                    <button className="p-3 m-1 bg-Soft-blue text-white rounded-md border-2 border-Soft-blue hover:bg-white hover:text-Soft-blue">
+                    <button className="p-3 m-1 bg-Soft-blue text-white rounded-md border-2 border-Soft-blue hover-hover:hover:bg-white hover-hover:hover:text-Soft-blue">
                         Get it on Chrome
                     </button>
-                    <button className="p-3 m-1 bg-Soft-white rounded-md drop-shadow-md border-2 border-white hover:border-Grayish-blue hover:text-Grayish-blue">
+                    <button className="p-3 m-1 bg-Soft-white rounded-md drop-shadow-md border-2 border-white hover-hover:hover:border-Grayish-blue hover-hover:hover:text-Grayish-blue">
                         Get it on Firefox
                     </button>
                 </div>
