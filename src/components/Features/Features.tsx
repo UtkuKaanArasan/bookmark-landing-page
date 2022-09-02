@@ -22,7 +22,7 @@ const Features: FC = () => {
     }
 
     return (
-        <div className="my-32 md:px-8 lg:px-16">
+        <div className="my-24 px-6 py-4 md:px-12 md:py-6 lg:px-18 xl:px-24 2xl:px-30">
             <div className="flex flex-col items-center">
                 <h1 className="text-3xl font-semibold p-4 md:text-center">Features</h1>
                 <p className="text-slate-400 mt-2 mb-10 md:w-2/3 lg:w-1/3">Our aim is to make it quick and easy for you to access your favorite websites. Your bookmarks sync between your devices so you can access them on the go.</p>

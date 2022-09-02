@@ -5,7 +5,7 @@ import image from '../../images/illustration-hero.svg';
 
 const Hero: FC = () => {
     return (
-        <div className="mb-10 md:flex md:items-center md:flex-row-reverse md:text-left md:px-8 lg:px-16">
+        <div className="mb-10 md:flex md:items-center md:flex-row-reverse md:text-left px-6 py-4 md:px-12 md:py-6 lg:px-18 xl:px-24 2xl:px-30">
             <div className="md:w-4/5 m-4">
                 <img src={image} alt="Hero banner" />
                 {/* Background object will be here */}
