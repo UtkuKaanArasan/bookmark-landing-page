@@ -1,7 +1,7 @@
 // React type checking
 import React, { FC } from "react";
 // Images and logos
-import logo from '../../../images/logo-bookmark.svg';
+import logo from '../../../images/logo-bookmark-white.svg';
 import closeLogo from '../../../images/icon-close.svg';
 import facebookSvg from '../../../images/icon-facebook.svg';
 import twitterSvg from '../../../images/icon-twitter.svg';

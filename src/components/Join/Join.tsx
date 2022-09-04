@@ -10,7 +10,7 @@ const Join: FC = () => {
 
     return (
         <div className="
-        my-24 pt-12 pb-6 px-6 md:px-12 lg:px-18 xl:px-24 2xl:px-30 
+        mt-24 pt-12 pb-6 px-6 md:px-12 lg:px-18 xl:px-24 2xl:px-30 
         bg-Soft-blue text-white
         flex flex-col justify-center items-center
         ">

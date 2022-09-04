@@ -12,11 +12,11 @@ const Navbar: FC = () => {
     const [isOpen, setIsOpen] = useState<boolean>(false);
 
     return (
-        <nav className="flex justify-between items-center mt-5 mb-10 px-6 py-4 md:px-12 md:py-6 lg:px-18 xl:px-24 2xl:px-30">
-            <div className="md:1/4 lg:w-1/3 mx-2">
+        <nav className="flex justify-between items-center mt-5 mb-10 px-5 py-4 md:px-10 md:py-6 lg:px-16 xl:px-20 2xl:px-32">
+            <div className="mx-2">
                 {isOpen === false ? <img src={logo} alt="logo" /> : null }
             </div>
-            <div className="md:w-3/4 lg:w-1/3">
+            <div className="mx-2">
                 {window.screen.width < 768 ?
                     <DropdownNav isOpen={isOpen} setIsOpen={setIsOpen} />
                     :
