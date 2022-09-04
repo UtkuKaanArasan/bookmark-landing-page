@@ -26,7 +26,7 @@ const AccordionCard: FC<AccordionCardProps> = ({ title, answer, id, index, setIn
     }
 
     return (
-        <div className="border-b-2 cursor-pointer lg:w-2/3">
+        <div className="border-b-2 cursor-pointer lg:w-2/3 xl:w-1/2 2xl:w-1/3">
             <div
                 onClick={() => handleIndex(id)}
                 className="flex justify-between items-center my-1 py-4 hover-hover:hover:text-Soft-red"

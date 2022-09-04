@@ -7,7 +7,7 @@ interface SvgWrapperProps{
 
 const SvgWrapper: FC<SvgWrapperProps> = ({children}) => {
     return (
-        <div className="px-4 py-2 cursor-pointer">
+        <div className="px-4 py-2 cursor-pointer flex items-center">
             {children}
         </div>
     )
