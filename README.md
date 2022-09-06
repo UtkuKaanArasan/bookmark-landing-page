@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/bookmark-landing-page-with-reacttypescript-and-tailwindcss-REXSBX8Gem)
+- Live Site URL: [Website with vercel](https://bookmark-landing-page-utkukaanarasan.vercel.app/)
 
 ## My process
 
