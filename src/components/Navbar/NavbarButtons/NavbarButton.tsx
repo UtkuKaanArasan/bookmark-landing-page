@@ -7,7 +7,7 @@ interface NavbarButtonProps{
 
 const NavbarButton: FC<NavbarButtonProps> = (props) => {
     return (
-        <li className="py-2 px-6 hover:text-Soft-red">
+        <li className="Button-padding hover:text-Soft-red">
             {props.children}
         </li>
     )

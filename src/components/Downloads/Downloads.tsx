@@ -9,7 +9,7 @@ import Card from "./components/Card";
 
 const Downloads: FC = () => {
     return (
-        <div className="my-24 pb-8 px-6 md:px-12 lg:px-18 xl:px-36 2xl:px-48">
+        <div className="Margin-padding__main">
             <h1 className="text-2xl font-bold m-3 lg:px-32">
                 Download the extension
             </h1>

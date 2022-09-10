@@ -11,7 +11,7 @@ import ListItem from "./components/ListItem";
 
 const Footer: FC = () => {
     return (
-        <footer className="bg-Very-dark-blue p-6 md:px-12 lg:px-18 xl:px-24 2xl:px-30 flex flex-col items-center lg:flex-row lg:justify-between">
+        <footer className="bg-Very-dark-blue Margin-padding__Footer flex flex-col items-center lg:flex-row lg:justify-between">
             <div className="lg:flex lg:items-center">
             <div className="p-4">
                 <img src={logo} alt="bookmark logo white" />

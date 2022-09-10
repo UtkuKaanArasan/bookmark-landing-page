@@ -12,7 +12,7 @@ const Navbar: FC = () => {
     const [isOpen, setIsOpen] = useState<boolean>(false);
 
     return (
-        <nav className="flex justify-between items-center mt-5 mb-10 px-6 py-4 md:px-12 md:py-6 lg:px-18 xl:px-24 2xl:px-32">
+        <nav className="flex justify-between items-center Margin-padding__navbar">
             <div className="mx-2">
                 {isOpen === false ? <img src={logo} alt="logo" /> : null }
             </div>
