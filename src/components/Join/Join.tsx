@@ -9,11 +9,8 @@ const Join: FC = () => {
     const [error, setError] = useState<boolean>(false);
 
     return (
-        <div className="
-        Margin-padding__join 
-        bg-Soft-blue text-white
-        flex flex-col justify-center items-center
-        ">
+        <div className="Margin-padding__join bg-Soft-blue text-white FlexCenter"
+        >
             <div className="w-11/12 md:w-2/3 lg:w-1/2">
                 <h2 className="text-lg py-1">
                     35,000+ ALREADY JOINED

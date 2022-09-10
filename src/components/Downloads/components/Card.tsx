@@ -28,7 +28,7 @@ const Card: FC<CardProps> = ({ Name, Version, Logo, relative}) => {
                     <img src={image} alt="background dots" />
                 </div>
                 <div className="m-6 w-10/12">
-                    <button className="w-full px-4 py-3 bg-Soft-blue text-white border-2 border-Soft-blue rounded-lg hover-hover:hover:bg-white hover-hover:hover:text-Soft-blue">
+                    <button className="w-full px-4 py-3 bg-Soft-blue text-white border-2 border-Soft-blue rounded-lg Hover-Bg-White Hover-Text-Softblue">
                         Add & Install Extension
                     </button>
                 </div>

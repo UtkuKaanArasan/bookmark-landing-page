@@ -34,7 +34,7 @@ const Form: FC<FormProps> = ({ email, setEmail, error, setError }) => {
     }
 
     return (
-        <form className="lg:flex lg:justify-between lg:items-center"
+        <form className="lg:Form-layout"
             onSubmit={submitHandler}>
             <div className={error === true ?
                 'border-2 border-Soft-red rounded-md bg-Soft-red lg:w-[70%]'
@@ -59,7 +59,7 @@ const Form: FC<FormProps> = ({ email, setEmail, error, setError }) => {
             </div>
             <div className="lg:w-1/4">
                 <button
-                    className="w-full p-3 my-4 bg-Soft-red border-2 border-Soft-red rounded-md hover-hover:hover:bg-white hover-hover:hover:text-Soft-red"
+                    className="w-full p-3 my-4 bg-Soft-red border-2 border-Soft-red rounded-md Hover-Bg-White Hover-Text-Softred"
                     type="submit">
                     Contact Us
                 </button>

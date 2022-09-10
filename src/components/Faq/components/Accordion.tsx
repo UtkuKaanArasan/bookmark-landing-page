@@ -8,7 +8,7 @@ const Accordion: FC = () => {
     const [index, setIndex] = useState<number>(0);
 
     return (
-        <div className="px-1 my-10 lg:flex lg:flex-col lg:items-center">
+        <div className="px-1 my-10 lg:Accordion-lg-layout">
             <AccordionCard
                 title="What is Bookmark?"
                 answer="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente natus ab officia ipsam harum dolor maxime dignissimos unde, eveniet voluptate amet inventore quas itaque accusamus quos. Temporibus quis sit modi! 1"
